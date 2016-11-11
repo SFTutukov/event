@@ -1,5 +1,15 @@
-@import 'blocks/nav';
+@import 'base/normalize';
+@import 'base/typography';
+@import 'base/colors';
+@import 'base/sprite';
 
-body{
-	background:#333;
-}
+@import 'mixin/mixins.scss';
+
+@import 'libs/bootstrap';
+@import 'libs/font-aweosome';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/nav';
+
+@import 'pages/page';
